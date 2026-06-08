@@ -15,7 +15,7 @@ def index():
         """
 
     # ... your GET handler or template rendering here ...
-
+elif
     return '''
         <h1>Welcome!</h1>
         <form method="POST">
@@ -24,6 +24,9 @@ def index():
             <input type="submit" value="Submit">
         </form>
     '''
+ @app.route("/goodbye", methods=["GET"])  
+    return print.console("goodbye. Please navigate back to the homepage")
+
 
 if __name__ == "__main__":
     import os
